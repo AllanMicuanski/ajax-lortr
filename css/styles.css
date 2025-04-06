@@ -10,3 +10,21 @@ button:hover {
   background-color: #f1c40f !important;
   color: #000 !important;
 }
+
+.curiosidade {
+  background-color: #343a40;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.curiosidade:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 250px ;
+  object-fit: cover;
+  object-position: center;
+}
